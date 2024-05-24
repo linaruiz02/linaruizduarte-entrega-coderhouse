@@ -1,0 +1,17 @@
+
+@import 'variables';
+
+.jumbotron {
+    background-color: $secondary-color !important;
+    padding-top: 400px;
+  }
+  
+
+  .stack-inline {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 100px;
+  }

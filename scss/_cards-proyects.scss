@@ -1,0 +1,38 @@
+@import 'variables';
+
+.container-proyects {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    flex-wrap: wrap;
+  }
+  
+  .card-proyects {
+    height: 412px;
+    background-color: $secondary-color;
+    padding-inline: 20px;
+    padding-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .image-proyects {
+    height: 320px;
+    margin-left: 8px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .boton-proyects {
+    display: inline-block;
+    color: $primary-color;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  .custom-button {
+    padding-block: 40px;
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+  }

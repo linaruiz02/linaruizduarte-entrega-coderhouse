@@ -1,0 +1,86 @@
+
+@import 'variables';
+@import 'body';
+@import 'card-about';
+@import 'cards-proyects';
+@import 'cards-services';
+@import 'navbar';
+@import 'bar-footer';
+@import 'jumbotron';
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: $primary-color;
+    background-color: $light-background;
+  }
+  a:hover {
+    color: $primary-color;
+  }
+  button {
+    background-color: $light-background;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stack-inline {
+    flex-direction: column;
+    padding-block: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding-block: 40px;
+  }
+
+  .custom-card,
+  .custom-card2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .container-proyects {
+    padding-top: 40px;
+  }
+
+  .card-proyects {
+    width: calc(50% - 20px);
+  }
+
+  .contacto {
+    padding: 10px;
+  }
+
+  .container-text {
+    width: 100%;
+    order: 2;
+  }
+
+  button {
+    margin-top: 10px;
+    order: 1;
+    width: 100%;
+  }
+
+  .jumbotron {
+    height: 400px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .jumbotron {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .jumbotron {
+    height: 300px;
+  }
+}
