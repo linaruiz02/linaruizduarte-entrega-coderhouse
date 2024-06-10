@@ -90,10 +90,9 @@ button:hover {
 .container-about{
   display: flex;
   flex-wrap: wrap;
-  gap: 120px!important;
-  justify-content: center;
-  padding: 40px;
-
+  gap: 30px;
+  justify-content: center!important;
+  margin-top: 80px;
 }
 
 .card-sobre-mi {
@@ -102,10 +101,8 @@ button:hover {
   height: 400px !important;
   width: 100%; 
   max-width: 400px; 
-  margin-right: 20px; 
-  margin-bottom: 20px;
-
- 
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
 
 .custom-sobre-mi:hover {
